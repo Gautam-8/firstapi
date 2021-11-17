@@ -1,8 +1,10 @@
 const express = require("express");
 
 const app = express();
-
+const stext = "welcome"
 const users = require("./MOCK_DATA.json");
+
+
 
 // app.get('/',(req,res) => {
 //     const b = "Welcome to homepage";
