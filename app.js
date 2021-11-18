@@ -6,12 +6,12 @@ const users = require("./MOCK_DATA");
 
 
 
-// app.get('/',(req,res) => {
-//     const b = "Welcome to homepage";
-//      res.send(b);
-// })
-
 app.get('/',(req,res) => {
+    const b = "Welcome to homepage";
+     res.send(b);
+})
+
+app.get('/users',(req,res) => {
 return res.send(users);
 })
 
