@@ -1,7 +1,7 @@
 const express = require("express");
 
 const app = express();
-const stext = "welcome"
+
 const users = require("./MOCK_DATA.json");
 
 
